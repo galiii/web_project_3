@@ -6,10 +6,12 @@
 
 /** Header **/
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__list/header__list.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
 
 /** Lead **/
 @import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
 
 /** Intro **/
 @import url(../blocks/intro/intro.css);
@@ -25,3 +27,6 @@
 
 /** Footer **/
 @import url(../blocks/footer/footer.css);
+
+/** Logo **/
+@import url(../blocks/logo/logo.css);
