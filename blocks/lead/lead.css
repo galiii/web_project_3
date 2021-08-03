@@ -1,0 +1,10 @@
+.lead {
+  margin: 102px 148px 0;
+  border: 1px solid palevioletred;
+  color: #fff;
+  width: 984px;
+  /*display: flex;
+  flex-direction: column;
+  //* justify-content: center; */
+  /*align-items: center;*/
+}
