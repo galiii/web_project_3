@@ -1,14 +1,16 @@
-.header__link-lang {
+.header__lang-link {
   margin: 0;
   color: #fff; /* #FFF FFF */
-  text-decoration: none;
+  text-decoration: underline;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 1.17;
 }
 
-.header__link-lang:first-of-type{
+
+
+.header__lang-link:last-child {
   margin-left: 18px;
-  /*text-decoration: underline;*/
+  text-decoration: none;
 }
