@@ -1,6 +1,7 @@
 .intro {
-  margin-top: 114px;
+  margin: 114px 0 0 148px;
   border: 1px solid skyblue;
-  width: 690px;
+  width: calc( 100% - ( 148px + 442px ));
+  max-width: 690px;
   color: #fff;
 }
