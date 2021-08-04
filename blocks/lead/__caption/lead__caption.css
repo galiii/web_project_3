@@ -1,5 +1,9 @@
 .lead__caption {
-  /*border: powderblue 1px solid;*/
+  border: powderblue 1px solid;
   margin: 8px 0 0;
   width: 182px;
+  letter-spacing: 1.5px;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: capitalize;
 }
