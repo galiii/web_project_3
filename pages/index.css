@@ -2,7 +2,7 @@
 @import url(../vendor/normalize.css);
 
 /** Fonts **/
-@import url(../blocks/fonts/Inter-3.19/Inter-Web/inter.css);
+@import url(../vendor/fonts/fonts.css);
 
 /** Page **/
 @import url(../blocks/page/page.css);
@@ -33,6 +33,9 @@
 
 /** Photo-grid **/
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__list/photo-grid__list.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
 
 /** Places **/
 @import url(../blocks/places/places.css);

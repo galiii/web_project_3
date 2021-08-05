@@ -1,0 +1,6 @@
+.photo-grid {
+  margin: 92px 48px 0;
+
+  border: 1px solid blanchedalmond;
+  width: calc( 100% - 2*48px);
+}
