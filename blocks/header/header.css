@@ -53,6 +53,15 @@
   left: 0;
 }
 
+/*********************************************/
+/**********    places                *********/
+/*********************************************/
+
+
+
+
+
+
 /*******************************************/
 /*****      Intro                     *****/
 /*****************************************/
@@ -290,7 +299,7 @@ color: white;
 /**********   cover                *********/
 /*********************************************/
 .footer {
-  margin: 92px 0 0;
+  margin: 92px auto 24px;
   display: flex;
   justify-content: space-between;
 }
@@ -308,15 +317,30 @@ color: white;
 
 .footer__link {
  /* margin: 0 0 24px 18px;*/
+  text-decoration: none;
   color: #fff;
   font-size: 16px;
   line-height: 18px;
 
 }
 
+/*
 .footer__link:first-of-type {
   margin-left: 0;
+}*/
+
+.footer__copyright {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
 }
+
+/* copyright sign */
+.footer__copyright::before {
+  content:'  \00a9';
+ }
 
 /* the break points shold be between 1024 to 1280 */
 @media screen and (max-width: 1148px) {
