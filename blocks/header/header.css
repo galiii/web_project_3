@@ -56,10 +56,50 @@
 /*********************************************/
 /**********    places                *********/
 /*********************************************/
+.lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 58px 148px 0;
+  border: 1px snow solid;
+  color: #fff;
+}
 
+.lead__title {
+  border: 1px solid firebrick;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+  max-width: 80%;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+}
 
+.lead__subtitle {
+  border: 1px solid darkturquoise;
+  max-width: 70%;
+  padding: 0;
+  margin: 32px 0 0;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
 
+.lead__image {
+  margin: 64px 0 0;
+  max-width: 100%;
+  object-fit: contain;
+}
 
+.lead__caption {
+  margin: 8px 0 0;
+  align-self: flex-start;
+  letter-spacing: 1.5px;
+  font-size: 10px;
+  text-transform: capitalize;
+}
 
 
 /*******************************************/
@@ -69,11 +109,14 @@
 .intro {
   border: 1px solid palegreen;
   max-width: 58%;
-  margin: 0 auto; /* top right bottom left 0 auto*/
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
   margin: 114px auto 0 148px;
-
-
 }
+
+
+
 
 .intro__title {
   margin: 0;
