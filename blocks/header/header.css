@@ -1,8 +1,131 @@
 .header {
   border: 1px solid yellow;
-  margin: 0  0 0 148px;
-  padding: 34px 0 0;
-  width: calc( 100% - 148px*2); /* 2*148 =*/
+  width: calc( 100% - 148px * 2); /* 2*148 =*/
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+
+.header__logo {
+  width: 190px;
+  height: 44px;
+}
+
+.header__nav {
+  margin: 0;
+  padding: 0;
+}
+
+
+.header__list {
+  padding: 0;
+  margin: 12px 0 0;
+  display: flex;
+  list-style: none;
+  font-size: 24px;
+  line-height: 28px; /*1.17*/
+}
+
+.header__list-item {
+  margin-left: 18px;
+  position: relative;
+}
+
+.header__link-lang {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Boolean modifider text-decoration: underline
+  but we want ---- like in the figma
+*/
+.header__link-lang_active::after {
+  /*text-decoration: underline;*/
+  content: "";
+  width: 29px;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  /* stick uderline */
+  bottom: -2px;
+  left: 0;
+}
+
+
+.intro {
+  border: 1px solid palegreen;
+  width: calc( 100% - 495px ); /* 2*148 =*/
+  margin: 0 auto; /* top right bottom left 0 auto*/
+  margin: 114px auto 0 148px;
+
+
+}
+
+.intro__title {
+  margin: 0;
+  padding: 0;
+  font-size: 54px;
+  line-height: 58px;
+  font-weight: 900;
+  color: white;
+  border: 1px solid teal;
+
+}
+
+.intro__text_brief {
+  margin: 0;
+  margin-top: 40px;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+color: white;
+border: 1px solid green;
+}
+
+.intro__text_description {
+  margin: 0;
+  margin-top: 32px;
+  padding: 0;
+font-size: 16px;
+line-height: 26px;
+color: white;
+}
+
+/* the break points shold be between 1024 to 1280 */
+@media screen and (max-width: 1148px) {
+  .header {
+    border:1px dashed palevioletred;
+    width: calc(100% - 48px * 2);
+  }
+}
+
+/* the break points shold be between 1024 to 1280 */
+@media screen and (max-width: 860px) {
+  .header {
+    border: 1px solid seagreen;
+    width: calc(100% - 24px * 2);
+  }
+}
+
+/* the break points shold be between 1024 to 1280 */
+@media screen and (max-width: 540px) {
+  .header {
+    border: 1px solid tan;
+    width: calc(100% - 16px * 2);
+  }
+
+  .header__logo {
+    width: 156px;
+    height: 36px;
+  }
+
+
+
+  .header__list {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
 }

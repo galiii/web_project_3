@@ -7,28 +7,38 @@
     <title>Document</title>
     <link rel="stylesheet" href="./pages/index.css">
 </head>
-<body>
-  <div class="page">
-    <header class="header">
-      <img src="./images/logo.svg" alt="" class="logo">
-      <nav class="header__list">
-          <a href="#" target="_blank" class="header__lang-link">En</a>
-          <a href="#" target="_blank" lang="es" class="header__lang-link">Es</a>
-      </nav>
-    </header> <!--End Header-->
+<body class="page">
+    <div class="page-container">
+      <header class="header">
+        <img src="./images/logo.svg" alt="" class="header__logo">
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__list-item">
+              <a href="#" class="header__link-lang header__link-lang_active">En</a>
+            </li>
+            <li class="header__list-item">
+              <a href="#" class="header__link-lang">Es</a>
+            </li>
+          </ul><!--End header__list-->
+        </nav> <!--End header__nav-->
+      </header><!--End Header-->
+      <!--main class="contect"-->
+        <!--section class="lead">
+          <h1 class="lead__title">From Portland to Portland</h1>
+          <p class="lead__subtitle">
+            An epic bicycle journey from Portland, ME. to Portland, OR
+          </p>
+          <img src="./images/kalegin-michail-179870-unsplash.png" alt="" class="lead__image">
+          <p class="lead__caption">Your journey starts here</p>
+        </section--><!--End Lead-->
 
-    <main class="contect">
-      <section class="lead">
-        <h1 class="lead__title">From Portland to Portland</h1>
-        <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
-        <img src="./images/kalegin-michail-179870-unsplash.png" alt="" srcset="" class="lead__image">
-        <p class="lead__caption">Your journey starts here</p>
-      </section><!--End Lead-->
-
-      <section class="intro">
-        <h2 class="intro__title">Know the country you live in a little better</h2>
-        <div class="intro__text">
-          <h3 class="intro__text_brief">That's exactly what we have arranged for you via this travel story</h3>
+        <section class="intro">
+          <h2 class="intro__title">
+            Know the country you live in a little better
+          </h2>
+          <h3 class="intro__text_brief">
+            That's exactly what we have arranged for you via this travel story
+          </h3>
           <p class="intro__text_description">
             Need more action and adventure in your life instead of the same old routine? From
             Portland, Maine to Portland, Oregon we're going to take you on an exciting journey through
@@ -39,89 +49,13 @@
             even stopping by famous author Stephen King's house to say hi and asking him to sign
             your favorite book.
           </p>
-        </div>
+        </section><!--End Intro-->
 
-        <ul class="intro__list">
-          <li class="intro__list-item">
-            <p class="intro__list-paragraph">
-              <span class="intro__list-span_accent">Distance (miles)</span> 3,644</p>
-          </li>
-          <li class="intro__list-item">
-            <p class="intro__list-paragraph">
-              <span class="intro__list-span_accent">Travel time (days)</span> 22
-            </p>
-          </li>
-          <li class="intro__list-item">
-            <p class="intro__list-paragraph">
-              <span class="intro__list-span_accent">Highest point (feet)</span> 9,613
-            </p>
-
-          </li>
-          <li class="intro__list-item">
-            <p class="intro__list-paragraph">
-              <span class="intro__list-span_accent">Lowest point (feet)</span> -3
-            </p>
-
-          </li>
-        </ul>
-      </section><!--End Intro-->
-
-      <section class="photo-grid">
-        <ul class="photo-grid__list">
-          <!--Line one-->
-          <li class="photo-grid__cell"> <!--highway 1-->
-            <img src="./images/photos-grid/photo-grid-highway.jpg" alt="" class="photo-grid__item">
-          </li>
-          <li class="photo-grid__cell"> <!--lake 2-->
-            <img src="./images/photos-grid/photo-grid-lake.jpg" alt="" class="photo-grid__item">
-          </li>
-          <li class="photo-grid__cell">  <!--seagulls 3-->
-            <img src="./images/photos-grid/photo-grid-seagulls.jpg" alt="" class="photo-grid__item">
-          </li>
-          <li class="photo-grid__cell"> <!--boise 4-->
-            <img src="./images/photos-grid/photo-grid-boise.jpg" alt="" class="photo-grid__item">
-          </li>
-          <!--Line Two-->
-          <li class="photo-grid__cell"> <!--fog 5-->
-            <img src="./images/photos-grid/photo-grid-fog.jpg" alt="" class="photo-grid__item">
-          </li>
-          <li class="photo-grid__cell"> <!--valley 6-->
-            <img src="./images/photos-grid/photo-grid-valley.jpg" alt="" class="photo-grid__item">
-          </li>
-          <li class="photo-grid__cell"> <!--pass 7-->
-            <img src="./images/photos-grid/photo-grid-pass.jpg" alt="" class="photo-grid__item">
-          </li>
-          <li class="photo-grid__cell"> <!--twig 8-->
-            <img src="./images/photos-grid/photo-grid-twig.jpg" alt="" class="photo-grid__item">
-          </li>
-          <!--Line Three-->
-          <li class="photo-grid__cell"> <!--clouds 9-->
-            <img src="./images/photos-grid/photo-grid-clouds.jpg" alt="" class="photo-grid__item">
-          </li>
-          <li class="photo-grid__cell"> <!--oasis 10-->
-            <img src="./images/photos-grid/photo-grid-oasis.jpg" alt="" class="photo-grid__item">
-          </li>
-          <li class="photo-grid__cell"> <!--wires 11 -->
-            <img src="./images/photos-grid/photo-grid-wires.jpg" alt="" class="photo-grid__item">
-          </li>
-          <li class="photo-grid__cell"> <!--road 12-->
-            <img src="./images/photos-grid/photo-grid-road.jpg" alt="" class="photo-grid__item">
-          </li>
-        </ul>
-      </section><!--End photo-grid-->
-
-      <section class="places">
-
-      </section><!--End places-->
-
-      <section class="cover">
-
-      </section><!--End cover-->
-    </main><!--End main-->
-
-    <footer class="footer">
-
-    </footer><!--End footer-->
-  </div> <!--End of Pages-->
-</body>
+        <section class="photo-grid"></section><!--End photo-grid-->
+        <section class="places"></section><!--End places-->
+        <section class="cover"></section><!--End cover-->
+      <!--/main--><!--End main-->
+      <footer class="footer"></footer><!--End footer-->
+    </div> <!--End of Page-container-->
+</body><!--End of Pages-->
 </html>

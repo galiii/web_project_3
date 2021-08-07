@@ -1,14 +1,24 @@
 .page {
-  /*in-width: 1280px;*/
-  /* we don't know how to make mobile versions of websites yet, */
-  /* so here we've set a minimum page width */
-  max-width: 1280px;
-  /* here we've set a maximum page width */
-  margin: 0 auto;
+  margin: 0; /* 0 auto*/
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Inter', sans-serif;/*,'Helvetica Neue', Arial, sans-serif;*/
-
+  min-height: 100vh;
   /* figma request */
   background-color: #2a2c2f;
 
+}
+
+/* For desktop 1280px the maximum witdh according
+   to tag footer and photo gallery is 1184px */
+.page-container {
+  border: 1px solid red;
+  margin: 0 auto; /*top/bottom left/right*/
+  margin-top: 34px;
+  max-width: 1184px;
+}
+
+@media screen and (max-width: 540px) {
+  .page_container {
+    margin-top: 20px;
+  }
 }
