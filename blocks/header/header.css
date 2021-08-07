@@ -149,7 +149,7 @@ color: white;
   padding: 0;
   color: #fff;
   display: grid;
-  grid-template-columns: repeat(2, minmax(460px,490px));
+  grid-template-columns: repeat(auto-fit, minmax(460px,490px));
   grid-template-rows: repeat(auto-fit, minmax(48px,1fr));
   column-gap: 40px;
 }
@@ -190,6 +190,7 @@ color: white;
   color: #fff;
   font-size: 18px;
   font-weight: 400;
+  margin: 4px 0 0;
 }
 
 .places__image {
@@ -285,6 +286,37 @@ color: white;
 }
 
 
+/*********************************************/
+/**********   cover                *********/
+/*********************************************/
+.footer {
+  margin: 92px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__list-link{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.footer__list-item {
+  margin-right: 18px;
+}
+
+.footer__link {
+ /* margin: 0 0 24px 18px;*/
+  color: #fff;
+  font-size: 16px;
+  line-height: 18px;
+
+}
+
+.footer__link:first-of-type {
+  margin-left: 0;
+}
 
 /* the break points shold be between 1024 to 1280 */
 @media screen and (max-width: 1148px) {
