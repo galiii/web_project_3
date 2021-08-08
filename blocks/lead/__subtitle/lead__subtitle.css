@@ -1,9 +1,37 @@
 .lead__subtitle {
-  border: 1px solid plum;
-  margin: 32px 182px 0;
-  color: #fff;
-  max-width: 620px;
+  /*border: 1px solid darkturquoise;*/
+  max-width: 70%;
+  padding: 0;
+  margin: 32px auto 0;
   font-size: 30px;
-  font-weight: 400;
+  line-height: 1.2; /*36px;*/
   text-align: center;
+}
+
+
+/************ Media **************/
+
+/* The break points shold be between 1024 to 1280 */
+@media screen and (max-width: 1148px) {
+  .lead__subtitle {
+    max-width: 60%;
+  }
+}
+
+/* The break points shold be between 768 to 1024 */
+@media screen and (max-width: 860px) {
+  .lead__subtitle {
+      max-width: 80%;
+    }
+  }
+
+/* The break points shold be between 1024 to 1280 */
+@media screen and (max-width: 540px) {
+  .lead__subtitle {
+    /*border: 1px solid darkviolet;*/
+    font-size: 16px;
+    line-height: 1.25; /*36px;*/
+    margin-top: 16px;
+    max-width: 60%;
+  }
 }

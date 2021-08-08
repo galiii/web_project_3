@@ -1,9 +1,31 @@
 .lead__caption {
-  border: powderblue 1px solid;
   margin: 8px 0 0;
-  width: 182px;
+  align-self: flex-start;
   letter-spacing: 1.5px;
   font-size: 10px;
-  font-weight: 400;
   text-transform: capitalize;
+}
+
+
+/************ Media **************/
+
+/* The break points shold be between 1024 to 1280 */
+@media screen and (max-width: 1148px) {
+  .lead__caption {
+    margin-left: 18px;
+  }
+}
+
+/* The break points shold be between 768 to 1024 */
+@media screen and (max-width: 860px) {
+  .lead__caption {
+   margin-left: 24px;
+  }
+}
+
+/* The break points shold be between 1024 to 1280 */
+@media screen and (max-width: 540px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
 }

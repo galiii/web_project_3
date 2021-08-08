@@ -58,55 +58,6 @@
   left: 0;
 }
 
-/*********************************************/
-/**********    lead                *********/
-/*********************************************/
-.lead {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: calc( 100% - 148px * 2); /* 2*148 =*/
-  margin: 58px auto 0;
-  border: 1px snow solid;
-  color: #fff;
-}
-
-.lead__title {
-  border: 1px solid firebrick;
-  margin: 0 auto;
-  text-align: center;
-  padding: 0;
-  max-width: 80%;
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 100px;
-}
-
-.lead__subtitle {
-  border: 1px solid darkturquoise;
-  max-width: 70%;
-  padding: 0;
-  margin: 32px 0 64px;
-  font-size: 30px;
-  line-height: 36px;
-  text-align: center;
-}
-
-.lead__image {
-  margin: 0;
-  max-width: 100%;
-  object-fit: contain;
-  /*object-position: 50% 50%;*/
-}
-
-.lead__caption {
-  margin: 8px 0 0;
-  align-self: flex-start;
-  letter-spacing: 1.5px;
-  font-size: 10px;
-  text-transform: capitalize;
-}
 
 
 /*******************************************/
@@ -134,7 +85,6 @@
   color: white;
   border: 1px solid teal;
   /*max-width: 90%*/
-
 }
 
 .intro__text_brief {
@@ -336,27 +286,7 @@
     width: calc(100% - 48px * 2);
   }
 
-/******************************/
-/*********** Lead  ************/
-/*****************************/
-.lead {
-  border: 1px solid deepskyblue;
-  width: calc( 100% - 48px * 2); /* 2*148 =*/
-  margin: 50px auto 0;
-}
 
-.lead__title {
-  max-width: 75%;
-}
-
-.lead__subtitle {
-  max-width: 60%;
-  margin-bottom: 56px;
-}
-
-.lead__image {
-  max-width: 100%;
-}
 
 /******************************/
 /*********** intro  ************/
@@ -425,29 +355,6 @@
     width: calc(100% - 24px * 2);
   }
 
-  /******************************/
-/*********** Lead  ************/
-/*****************************/
-.lead {
-  border: 1px solid deepskyblue;
-  width: 100%
-}
-
-.lead__title {
-  max-width: 95%;
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
-.lead__subtitle {
-  max-width: 79%;
-  margin-left: 174px;
-  margin-right: 174px;
-}
-
-.lead__caption {
-  margin-left: 24px;
-}
 
 
 }
@@ -467,5 +374,11 @@
   .header__list {
     font-size: 18px;
     line-height: 20px;
+  }
+
+
+
+  .places__image {
+    margin-top: 40px;
   }
 }
