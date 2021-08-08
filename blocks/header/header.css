@@ -1,3 +1,8 @@
+/*********************/
+/*** header *********/
+/*******************/
+
+
 .header {
   border: 1px solid yellow;
   width: calc( 100% - 148px * 2); /* 2*148 =*/
@@ -54,14 +59,15 @@
 }
 
 /*********************************************/
-/**********    places                *********/
+/**********    lead                *********/
 /*********************************************/
 .lead {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 58px 148px 0;
+  width: calc( 100% - 148px * 2); /* 2*148 =*/
+  margin: 58px auto 0;
   border: 1px snow solid;
   color: #fff;
 }
@@ -81,16 +87,17 @@
   border: 1px solid darkturquoise;
   max-width: 70%;
   padding: 0;
-  margin: 32px 0 0;
+  margin: 32px 0 64px;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
 }
 
 .lead__image {
-  margin: 64px 0 0;
-  max-width: 100%;
+  margin: 0;
+  width: 100%;
   object-fit: contain;
+  /*object-position: 50% 50%;*/
 }
 
 .lead__caption {
@@ -113,8 +120,8 @@
   flex-direction: column;
   margin: 0 auto;
   margin: 114px auto 0 148px;
+  min-height: 569px;
 }
-
 
 
 
@@ -126,28 +133,47 @@
   font-weight: 900;
   color: white;
   border: 1px solid teal;
+  /*max-width: 90%*/
 
 }
 
 .intro__text_brief {
   margin: 0;
   margin-top: 40px;
-font-weight: 400;
-font-size: 24px;
-line-height: 34px;
-color: white;
-border: 1px solid green;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: white;
+  border: 1px solid green;
 }
 
 .intro__text_description {
   margin: 0;
   margin-top: 32px;
   padding: 0;
-font-size: 16px;
-line-height: 26px;
-color: white;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
 }
 
+
+.intro__list {
+  margin: 33px 0 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.intro__list_text {
+  color: #fff;
+  margin: 0;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.intro__list_accent {
+  font-weight: 700;
+}
 
 /********************************************/
 /********    photo-grid                   **/
@@ -157,6 +183,14 @@ color: white;
   /*margin-left: 46px;
   margin-right: 46px;*/
   border: 1px solid blanchedalmond;
+  list-style-type: none;
+  padding: 0;
+  max-width: 100%;
+  /*margin: 0 auto;*/
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(280px, 1fr));
+  grid-template-rows: repeat( 3, minmax(200px, 1fr));
+  gap: 16px;
 }
 
 .photo-grid__list {
@@ -172,10 +206,17 @@ color: white;
 
 
 .photo-grid__item {
-  width: 284px;
-  height: 213px;
+  border: 1px solid deepskyblue;
+  /*width: 284px;
+  height: 213px;*/
+  margin: 0 auto;
 }
 
+.photo-grid__image {
+  width: 100%;
+  height: 213px;
+  object-fit: fill;
+}
 
 /*********************************************/
 /**********    places                *********/
@@ -385,20 +426,117 @@ color: white;
   content:'  \00a9';
  }
 
+
+
+/************ Media **************/
+
 /* the break points shold be between 1024 to 1280 */
 @media screen and (max-width: 1148px) {
+  /******************************/
+  /***** Header ****************/
+  /****************************/
   .header {
     border:1px dashed palevioletred;
     width: calc(100% - 48px * 2);
   }
+
+/******************************/
+/*********** Lead  ************/
+/*****************************/
+.lead {
+  border: 1px solid deepskyblue;
+  width: calc( 100% - 48px * 2); /* 2*148 =*/
+  margin: 50px auto 0;
 }
 
-/* the break points shold be between 1024 to 1280 */
+.lead__title {
+  max-width: 75%;
+}
+
+.lead__subtitle {
+  max-width: 60%;
+  margin-bottom: 56px;
+}
+
+.lead__image {
+  max-width: 100%;
+}
+
+/******************************/
+/*********** intro  ************/
+/*****************************/
+.intro {
+  background: deepskyblue;
+  border: 1px dashed palegreen;
+  margin-left: 48px;
+  max-width: 70%;
+}
+
+.intro__text_brief {
+  max-width: 88%;
+}
+
+/******************************/
+/*********** photo-grid  ************/
+/*****************************/
+
+.photo-grid {
+  /**grid-template-columns: repeat( auto-fit, minmax(300px , 1fr));
+  grid-template-rows: repeat( 4, minmax(180px, 1fr));*/
+  margin-left: 24px;
+  margin-right: 24px;
+  gap: 14px;
+}
+
+.photo-grid__image {
+  width: 300px;
+  height: 225px;
+}
+
+
+}
+
+
+
+
+/* the break points shold be between 768 to 1024 */
 @media screen and (max-width: 860px) {
+  /******************************/
+  /***** Header ****************/
+  /****************************/
   .header {
     border: 1px solid seagreen;
     width: calc(100% - 24px * 2);
   }
+
+  /******************************/
+/*********** Lead  ************/
+/*****************************/
+.lead {
+  border: 1px solid deepskyblue;
+  width: 100%
+}
+
+.lead__title {
+  max-width: 95%;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.lead__subtitle {
+  max-width: 79%;
+  margin-left: 174px;
+  margin-right: 174px;
+}
+
+.lead__caption {
+  margin-left: 24px;
+}
+
+/*******************************/
+
+
+
 }
 
 /* the break points shold be between 1024 to 1280 */
