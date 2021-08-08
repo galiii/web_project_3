@@ -1,0 +1,24 @@
+.footer__copyright {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.14; /*16px;*/
+}
+
+
+/* copyright sign */
+.footer__copyright::before {
+  content:'  \00a9';
+ }
+
+
+/* The break points shold be between 320 to 768 */
+@media screen and (max-width: 540px) {
+
+  .footer__copyright {
+    margin-top: 16px;
+    line-height: 1; /*14px*/
+  }
+
+}

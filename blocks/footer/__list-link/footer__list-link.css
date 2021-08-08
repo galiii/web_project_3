@@ -1,0 +1,16 @@
+.footer__list-link{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+
+/* The break points shold be between 320 to 768 */
+@media screen and (max-width: 540px) {
+
+  .footer__list-link {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

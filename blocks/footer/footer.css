@@ -1,0 +1,38 @@
+.footer {
+  margin: 92px auto 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/************ Media **************/
+
+/* The break points shold be between 1024 to 1280 */
+@media screen and (max-width: 1148px) {
+  .footer {
+    margin-left: 48px;
+    margin-right: 48px;
+    }
+}
+
+
+/* The break points shold be between 768 to 1024 */
+@media screen and (max-width: 860px) {
+  .footer {
+    margin-top: 88px;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+/* The break points shold be between 320 to 768 */
+@media screen and (max-width: 540px) {
+  .footer {
+    min-height: 139px;
+    background-color: teal;
+    margin-top: 64px;
+    margin-left: 16px;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+  }
+
+}

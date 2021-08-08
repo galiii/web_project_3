@@ -1,0 +1,112 @@
+.cover {
+  margin-top: 92px;
+
+}
+
+.cover__link {
+  min-height: 740px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../images/cover-route-66.jpg);
+  background-size:  cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+.cover__link::after {
+  content: "";
+  background: #2a2c2f;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .3;
+  transition: .5s;
+}
+
+.cover__link:hover {
+ cursor: pointer;
+}
+
+
+.cover__link:hover::after {
+  opacity: .8;
+}
+
+.cover__text {
+  /*text-align: center;*/
+  z-index: 1;
+}
+
+.cover__title {
+  margin: 0;
+  font-size: 72px;
+  line-height: 1.06; /*76px;*/
+  font-weight: 900;
+}
+
+.cover__subtitle {
+  margin: 32px auto 0;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 320px;
+}
+
+/************ Media **************/
+
+/* the break points shold be between 1024 to 1280 */
+@media screen and (max-width: 1148px) {
+
+/******** cover ****/
+.cover__link {
+  min-height: 640px;
+  /*background-size: cover;*/
+}
+
+}
+
+
+
+
+/* the break points shold be between 768 to 1024 */
+@media screen and (max-width: 860px) {
+
+  .cover__link {
+    min-height: 480px;
+  }
+}
+
+/* the break points shold be between 1024 to 1280 */
+@media screen and (max-width: 540px) {
+
+.cover__link {
+  min-height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cover__text {
+  margin: 50px 16px;
+  text-align: center;
+}
+
+
+.cover__title {
+  font-size: 32px;
+  line-height: 35px;
+}
+
+.cover__subtitle {
+    /*margin-top: 16px 16px 0;*/
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 288px;
+  }
+
+}
