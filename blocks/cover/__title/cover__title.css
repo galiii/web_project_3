@@ -1,0 +1,19 @@
+.cover__title {
+  margin: 0;
+  font-size: 72px;
+  line-height: 1.06; /*76px;*/
+  font-weight: 900;
+}
+
+
+
+/************ Media **************/
+
+/* the break points shold be between 320 to 768 */
+@media screen and (max-width: 540px) {
+
+  .cover__title {
+    font-size: 32px;
+    line-height: 1.09; /*35px;*/
+  }
+}

@@ -1,0 +1,15 @@
+.cover__text {
+  /*text-align: center;*/
+  z-index: 1;
+}
+
+/************ Media **************/
+
+/* The break points shold be between 320 to 768 */
+@media screen and (max-width: 540px) {
+
+  .cover__text {
+    /*margin: 50px 16px;*/
+    text-align: center;
+  }
+}
