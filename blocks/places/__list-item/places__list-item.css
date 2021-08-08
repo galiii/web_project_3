@@ -1,0 +1,43 @@
+
+.places__list-item {
+  border: 1px solid green;
+  color: #fff;
+  margin:  0 0 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+}
+
+.places__list-item:last-of-type {
+  margin-bottom: 0;
+}
+
+
+/* The break points shold be between 1024 to 1280 */
+@media screen and (max-width: 1148px) {
+
+  .places__list-item {
+    border: wheat 1px solid;
+    column-gap: 32px;
+  }
+}
+
+/* The break points shold be between 768 to 1024 */
+@media screen and (max-width: 860px) {
+
+  .places__list-item {
+    border: green 1px solid;
+    column-gap: 28px;
+  }
+}
+
+/* The break points shold be between 1024 to 1280 */
+@media screen and (max-width: 540px) {
+
+  .places__list-item {
+      margin: 48px 0;
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 32px;
+    }
+}

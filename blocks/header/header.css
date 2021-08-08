@@ -60,70 +60,6 @@
 
 
 
-/*******************************************/
-/*****      Intro                     *****/
-/*****************************************/
-
-.intro {
-  border: 1px solid palegreen;
-  max-width: 58%;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  margin: 114px auto 0 148px;
-  min-height: 569px;
-}
-
-
-
-.intro__title {
-  margin: 0;
-  padding: 0;
-  font-size: 54px;
-  line-height: 58px;
-  font-weight: 900;
-  color: white;
-  border: 1px solid teal;
-  /*max-width: 90%*/
-}
-
-.intro__text_brief {
-  margin: 0;
-  margin-top: 40px;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 34px;
-  color: white;
-  border: 1px solid green;
-}
-
-.intro__text_description {
-  margin: 0;
-  margin-top: 32px;
-  padding: 0;
-  font-size: 16px;
-  line-height: 26px;
-  color: white;
-}
-
-
-.intro__list {
-  margin: 33px 0 0;
-  padding: 0;
-  list-style: none;
-
-}
-
-.intro__list_text {
-  color: #fff;
-  margin: 0;
-  font-size: 12px;
-  line-height: 18px;
-}
-
-.intro__list_accent {
-  font-weight: 700;
-}
 
 /********************************************/
 /********    photo-grid                   **/
@@ -172,21 +108,8 @@
 /**********    places                *********/
 /*********************************************/
 
-.places {
-  border: 1px solid fuchsia;
-  /*width: calc( 100% - 148px * 2);*/
-  width: 85%;
-  margin: 0 148px;
 
-}
-
-.places__list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  /*border: 1px solid burlywood;*/
-}
-
+/*
 .places__list-item {
   border: 1px solid greenyellow;
   margin: 80px 0 0;
@@ -216,9 +139,6 @@
   list-style: none;
 }
 
-.places__website-item {
-  /*margin-left: 40px;*/
- }
 
 .places__url-heading {
   margin: 0;
@@ -239,7 +159,7 @@
 
 .places__image {
   width: 460px;
-  /*height: 460px;*/
+
   object-fit: contain;
 }
 
@@ -263,7 +183,7 @@
 .places__price {
   line-height: 26px;
 }
-
+*/
 .columns {
 
 }
@@ -278,66 +198,46 @@
 
 /* the break points shold be between 1024 to 1280 */
 @media screen and (max-width: 1148px) {
+    /******************************/
+    /***** Header ****************/
+    /****************************/
+    .header {
+      border:1px dashed palevioletred;
+      width: calc(100% - 48px * 2);
+    }
+
+
+
   /******************************/
-  /***** Header ****************/
-  /****************************/
-  .header {
-    border:1px dashed palevioletred;
-    width: calc(100% - 48px * 2);
+  /*********** intro  ************/
+  /*****************************/
+  .intro {
+    background: deepskyblue;
+    border: 1px dashed palegreen;
+    margin-left: 48px;
+    max-width: 70%;
   }
 
+  .intro__text_brief {
+    max-width: 88%;
+  }
 
+  /******************************/
+  /*********** photo-grid  ************/
+  /*****************************/
 
-/******************************/
-/*********** intro  ************/
-/*****************************/
-.intro {
-  background: deepskyblue;
-  border: 1px dashed palegreen;
-  margin-left: 48px;
-  max-width: 70%;
-}
+  .photo-grid {
+    /**grid-template-columns: repeat( auto-fit, minmax(300px , 1fr));
+    grid-template-rows: repeat( 4, minmax(180px, 1fr));*/
+    margin-left: 24px;
+    margin-right: 24px;
+    gap: 14px;
+  }
 
-.intro__text_brief {
-  max-width: 88%;
-}
-
-/******************************/
-/*********** photo-grid  ************/
-/*****************************/
-
-.photo-grid {
-  /**grid-template-columns: repeat( auto-fit, minmax(300px , 1fr));
-  grid-template-rows: repeat( 4, minmax(180px, 1fr));*/
-  margin-left: 24px;
-  margin-right: 24px;
-  gap: 14px;
-}
-
-.photo-grid__image {
-  width: 300px;
-  height: 225px;
-}
-
-/************/
-/*** place **/
-/**********/
-.places {
-  border: 1px solid fuchsia;
-  /*width: calc( 100% - 148px * 2);*/
-  width: 88%;
-  margin: 0 48px;
-}
-
-.places__list-item {
-  border: wheat 1px solid;
-  column-gap: 32px;
-}
-
-
-.places__image {
-  width: 440px;
-}
+  .photo-grid__image {
+    width: 300px;
+    height: 225px;
+  }
 
 
 }
@@ -347,9 +247,9 @@
 
 /* the break points shold be between 768 to 1024 */
 @media screen and (max-width: 860px) {
-  /******************************/
+
   /***** Header ****************/
-  /****************************/
+
   .header {
     border: 1px solid seagreen;
     width: calc(100% - 24px * 2);
@@ -377,8 +277,8 @@
   }
 
 
-
+/*
   .places__image {
     margin-top: 40px;
-  }
+  }*/
 }

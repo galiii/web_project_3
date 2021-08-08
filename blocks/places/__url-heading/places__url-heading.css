@@ -1,0 +1,19 @@
+.places__url-heading {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 170%;
+  margin: 0;
+  padding: 0 0 12px;
+  color: #aaa;
+  letter-spacing: 0.2em;
+  }
+
+
+/* The break points should be between 768 to 1024 */
+@media screen and (max-width: 860px) {
+
+  .places__url-heading {
+    line-height: 100%;
+  }
+}
+
