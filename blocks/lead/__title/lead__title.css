@@ -1,35 +1,42 @@
 .lead__title {
-  /*border: 1px solid firebrick;*/
-  margin: 0 auto;
-  padding: 0;
-  max-width: 80%;
   font-weight: 900;
   font-size: 96px;
+  line-height: 104%;
+  margin: 0 132px 32px; /* 280 - 148 = 132 */
   text-align: center;
-  line-height: 1.04; /*100px;*/
 }
 
 
-/*  The break points shold be between 1024 to 1280 */
+
+/* The break points should be between 1024 to 1280 */
 @media screen and (max-width: 1148px) {
   .lead__title {
-      max-width: 80%;
+      margin-left: 104px;
+      margin-right: 104px;
     }
 }
 
-/* The break points shold be between 768 to 1024 */
+
+/* The break points should be between 768 to 1024 */
 @media screen and (max-width: 860px) {
   .lead__title {
-    max-width: 95%;
+   /* max-width: 95%;*/
+   margin-left: 24px;
+   margin-right: 24px;
   }
 }
 
-/* The break points shold be between 1024 to 1280 */
+/* The break points should be between 320 to 768 */
 @media screen and (max-width: 540px) {
  .lead__title {
-  /*border: 1px solid yellow;*/
+  margin-bottom: 16px;
   font-size: 40px;
-  line-height: 1.1; /*44px*/
-  max-width: 70%;
+  line-height: 110%;
+  /*max-width: 70%;*/
   }
 }
+
+
+
+
+

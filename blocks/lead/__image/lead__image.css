@@ -1,27 +1,18 @@
 .lead__image {
-  margin: 64px 0 0;
+  margin: 0 0 8px;
   max-width: 100% ;
-  background-size: contain;
+  /*background-size: contain;*/
+  object-fit: contain;
   /*object-position: 50% 50%;*/
 }
 
 
-
-/************ Media **************/
-
-/* the break points shold be between 1024 to 1280 */
-@media screen and (max-width: 1148px) {
-.lead__image {
-  margin-top: 56px;
-  /*max-width: 100%;*/
+/* The break points should be between 768 to 1024 */
+@media screen and (max-width: 860px) {
+  .lead__image{
+    width: 100%;
   }
-
 }
 
 
-/* The break points shold be between 1024 to 1280 */
-@media screen and (max-width: 540px) {
-  .lead__image {
-    margin-top: 40px;
-    }
-}
+

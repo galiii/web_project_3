@@ -4,7 +4,7 @@
 .header {
   border: 1px solid yellow;
   width: calc( 100% - 148px * 2); /* 2*148 =*/
-  margin: 0 auto;
+  margin: 0 auto 58px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -67,8 +67,9 @@
     /***** Header ****************/
     /****************************/
     .header {
-      border:1px dashed palevioletred;
+      border: 1px dashed palevioletred;
       width: calc(100% - 48px * 2);
+      margin-bottom: 50px;
     }
 }
 
@@ -83,6 +84,7 @@
   .header {
     border: 1px solid seagreen;
     width: calc(100% - 24px * 2);
+
   }
 
 
@@ -93,6 +95,7 @@
   .header {
     border: 1px solid tan;
     width: calc(100% - 16px * 2);
+
   }
 
   .header__logo {

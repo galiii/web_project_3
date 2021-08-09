@@ -4,35 +4,35 @@
   justify-content: center;
   align-items: center;
   width: calc( 100% - 148px * 2);
-  margin: 58px auto 0;
-  /*border: 1px snow solid;*/
+  margin: 0 auto 92px;
   color: #fff;
 }
 
 
-/************ Media **************/
-
-/* The break points shold be between 1024 to 1280 */
+/* The break points should be between 1024 to 1280 */
 @media screen and (max-width: 1148px) {
   .lead {
-    /*border: 1px solid deepskyblue;*/
     width: calc( 100% - 48px * 2);
-    margin-top: 50px;
   }
 }
 
-/*  The break points shold be between 768 to 1024 */
+
+/*  The break points should be between 768 to 1024 */
 @media screen and (max-width: 860px) {
   .lead {
-    /*border: 1px solid orange;*/
     width: calc(100% - 24px * 2);
+    margin-bottom: 88px;
   }
 }
 
-/* The break points shold be between 1024 to 1280 */
+
+/* The break points shold be between 320 to 768 */
 @media screen and (max-width: 540px) {
   .lead {
-    /*border: 1px solid yellow;*/
     width: calc(100% - 16px * 2);
+    margin-bottom: 64px;
   }
 }
+
+
+
