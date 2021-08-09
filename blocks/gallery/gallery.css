@@ -1,0 +1,32 @@
+.gallery {
+  margin: 0 0 92px;
+  padding: 0;
+  max-width: 100%;
+}
+
+
+
+
+.photo-grid {
+  margin: 0 0 92px;
+  padding: 0;
+  max-width: 100%;
+  /*margin: 0 auto;*/
+}
+
+/* The break points should be between 768 to 1024 */
+@media screen and (max-width: 860px) {
+  .gallery {
+    margin-bottom: 88px;
+  }
+}
+
+/* The break points should be between 320 to 768 */
+@media screen and (max-width: 540px) {
+  .gallery {
+    margin-bottom: 64px;
+  }
+}
+
+
+

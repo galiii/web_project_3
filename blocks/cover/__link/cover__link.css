@@ -29,9 +29,6 @@
 }
 
 
-
-/************ Media **************/
-
 /* The break points should be between 1024 to 1280 */
 @media screen and (max-width: 1148px) {
 .cover__link {
@@ -39,7 +36,7 @@
   }
 }
 
-/* The break points shold be between 768 to 1024 */
+/* The break points should be between 768 to 1024 */
 @media screen and (max-width: 860px) {
   .cover__link {
     min-height: 480px;

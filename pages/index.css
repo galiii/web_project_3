@@ -37,11 +37,11 @@
 @import url(../blocks/intro/__area-text/_accent/intro__area-text_accent.css);
 
 
-
-/** Photo-grid **/
-@import url(../blocks/photo-grid/photo-grid.css);
-/**
-@import url(../blocks/photo-grid/__item/photo-grid__item.css);*/
+/** Gallery **/
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__container/gallery__container.css);
+@import url(../blocks/gallery/__figure/gallery__figure.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
 
 
 /** Places **/

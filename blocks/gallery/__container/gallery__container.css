@@ -1,0 +1,36 @@
+.gallery__container {
+  margin: 0 48px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(280px, 1fr));
+  /*grid-template-rows: repeat( 3, minmax(200px, 1fr));*/
+  gap: 16px;
+}
+
+
+/* The break points should be between 768 to 1024 */
+@media screen and (max-width: 1148px) {
+  .gallery__container {
+    margin: 0 48px;
+    gap: 14px;
+  }
+
+}
+/* The break points should be between 768 to 1024 */
+@media screen and (max-width: 860px) {
+  .gallery__container {
+    margin: 0 24px;
+  }
+
+}
+
+/* The break points should be between 320 to 768 */
+@media screen and (max-width: 540px) {
+  .gallery__container {
+    margin: 0 16px;
+    row-gap: 12px;
+  }
+}
+
+
+

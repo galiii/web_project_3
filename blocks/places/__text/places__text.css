@@ -9,14 +9,11 @@
   margin-bottom: 0;
 }
 
-
-/* The break points shold be between 768 to 1024 */
+/* The break points should be between 768 to 1024 */
 @media screen and (max-width: 860px) {
-
   .places__text {
     font-size: 16px;
   }
-
 }
 
 

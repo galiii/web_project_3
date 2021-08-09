@@ -6,19 +6,9 @@
 }
 
 
-/* The break points shold be between 1024 to 1280 */
-@media screen and (max-width: 1148px) {
-
-  .places__list-item {
-    border: wheat 1px solid;
-    column-gap: 32px;
-  }
-}
-
 
 /* The break points should be between 768 to 1024 */
 @media screen and (max-width: 860px) {
-
   .places__title {
     font-size: 42px;
     line-height: 110%;
@@ -26,12 +16,11 @@
 
 }
 
-/* The break points should be between 1024 to 1280 */
+/* The break points should be between 320 to 768 */
 @media screen and (max-width: 540px) {
-
   .places__title {
     padding: 0 16px;
-    margin-bottom: 30px;
+    margin: 0;
     font-size: 32px;
     line-height: 109%;
   }

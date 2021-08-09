@@ -18,6 +18,16 @@
   }
 }
 
+
+/* The break points shold be between 1024 to 1280 */
+@media screen and (max-width: 1148px) {
+  .places__list-item {
+    column-gap: 32px;
+  }
+}
+
+
+
 /* The break points shold be between 768 to 1024 */
 @media screen and (max-width: 860px) {
   .places__list-item {
@@ -31,6 +41,6 @@
       margin: 48px 0;
       display: grid;
       grid-template-columns: 1fr;
-      row-gap: 32px;
+      row-gap: 30px;
     }
 }
