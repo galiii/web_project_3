@@ -62,3 +62,24 @@
 
 
 }
+
+
+/* the break points should be between 320 to 768
+@media screen and (max-width: 540px) {
+  .header {
+    width: calc(100% - 16px * 2);
+  }
+
+  /*
+  .photo-grid {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .photo-grid__container {
+
+    row-gap: 12px;
+  }
+
+
+}*/

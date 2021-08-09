@@ -1,0 +1,23 @@
+/*
+boolean modifider text-decoration: underline
+but we want ---- like in the figma
+*/
+.header__link_active::after {
+  /*text-decoration: underline;*/
+  content: "";
+  width: 29px;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  /* stick uderline */
+  bottom: -2px;
+  left: 0;
+}
+
+
+/* the break points should be between 1024 to 1280 */
+@media screen and (max-width: 540px) {
+  .header__link_active::after {
+    width: 21px;
+  }
+}
