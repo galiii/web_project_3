@@ -34,7 +34,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__area-text/intro__area-text.css);
-@import url(../blocks/intro/__area-text/_accent/intro__area-text_accent.css);
+@import url(../blocks/intro/__span-accent/intro__span-accent.css);
 
 
 /** Gallery **/
