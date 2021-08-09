@@ -1,90 +1,36 @@
 .intro {
   border: 1px solid palegreen;
-  max-width: 58%;
+  max-width: 690px;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  margin: 114px auto 0 148px;
-  min-height: 569px;
-}
-
-.intro__title {
-  margin: 0;
+  margin: 0 0 92px 148px;
   padding: 0;
-  font-size: 54px;
-  line-height: 1.07; /*58px;*/
-  font-weight: 900;
-  color: #fff;
-  border: 1px solid teal;
-}
-
-.intro__subtitle {
-  margin: 40px 0 0;
-  font-size: 24px;
-  line-height: 34px;
-  color: #fff;
-  border: 1px solid green;
-}
-
-.intro__text_description {
-  margin: 32px 0 0;
-  padding: 0;
-  font-size: 16px;
-  line-height: 26px;
   color: #fff;
 }
 
 
-.intro__list {
-  margin: 33px 0 0;
-  padding: 0;
-  list-style: none;
-
-}
-
-.intro__list_text {
-  color: #fff;
-  margin: 0;
-  font-size: 12px;
-  line-height: 18px;
-}
-
-.intro__list_accent {
-  font-weight: 700;
-}
 
 
-
-/* the break points shold be between 1024 to 1280 */
+/* The break points should be between 1024 to 1280 */
 @media screen and (max-width: 1148px) {
 
   .intro {
-    background: deepskyblue;
-    border: 1px dashed palegreen;
     margin-left: 48px;
-    max-width: 70%;
-  }
-
-  .intro__text_brief {
-    max-width: 88%;
   }
 }
 
-
-
-
-/* the break points shold be between 768 to 1024 */
+/* The break points should be between 768 to 1024 */
 @media screen and (max-width: 860px) {
 
-  .intro__title {
-    margin-top: 88px;
-  }
-
-
-
+    .intro {
+      max-width: 100%;
+      margin: 0 24px 88px;
+    }
 }
 
-/* the break points shold be between 1024 to 1280 */
+/* The break points should be between 320 to 768 */
 @media screen and (max-width: 540px) {
-
+  .intro {
+    margin: 0 16px 64px;
+  }
 }

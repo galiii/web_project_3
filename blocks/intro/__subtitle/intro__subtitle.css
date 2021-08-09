@@ -1,0 +1,16 @@
+.intro__subtitle {
+  margin: 0 0 32px;
+  padding: 0;
+  font-size: 24px;
+  line-height: 142%;
+  /*border: 1px solid green;*/
+}
+
+
+/* The break points should be between 320 to 768 */
+@media screen and (max-width: 540px) {
+
+  .intro__subtitle {
+    line-height: 125%;
+  }
+}
