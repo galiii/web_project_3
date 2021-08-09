@@ -16,7 +16,6 @@
 
 /* The break points shold be between 768 to 1024 */
 @media screen and (max-width: 860px) {
-
   .places__list {
     margin: 0 24px;
   }

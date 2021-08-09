@@ -1,7 +1,5 @@
 .cover__link {
   min-height: 740px;
-  color: #fff;
-  text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,10 +23,6 @@
   transition: .5s;
 }
 
-.cover__link:hover {
- cursor: pointer;
-}
-
 
 .cover__link:hover::after {
   opacity: .8;
@@ -38,9 +32,8 @@
 
 /************ Media **************/
 
-/* The break points shold be between 1024 to 1280 */
+/* The break points should be between 1024 to 1280 */
 @media screen and (max-width: 1148px) {
-
 .cover__link {
   min-height: 640px;
   }
@@ -53,7 +46,7 @@
   }
 }
 
-/* the break points shold be between 320 to 768 */
+/* the break points should be between 320 to 768 */
 @media screen and (max-width: 540px) {
   .cover__link {
     min-height: 200px;
