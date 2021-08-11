@@ -2,19 +2,27 @@
 
 ### Overview
 * Intro
-* Figma
-* Images
+* Description of technologies used
+* URL to My Website
+
 
 **Intro**
 
 This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
 
-**Figma**
 
-* [Link to the project on Figma](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1)
+**Description of technologies used**
+1. HTML5
+2. CSS3
 
-**Images**
+| Properties | Value | Description |
+| --- | --- | --- |
+| ```css  grid-template-columns: ``` | ```css  repeat( auto-fit, minmax(280px, 1fr)); ```| To achieve wrapping, we can use the **auto-fit**.  So we need to start by specifying a minimum width for the columns, making sure they don’t get too narrow. We can do that using the **minmax()** function.|
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+[The link that help me](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/)
 
-Good luck and have fun!
+
+**URL to My Website**
+
+[From Portland to Portland](https://galiii.github.io/web_project_3/)
+
