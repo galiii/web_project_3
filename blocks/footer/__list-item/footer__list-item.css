@@ -4,9 +4,8 @@
 
 /* The break points shold be between 320 to 768 */
 @media screen and (max-width: 540px) {
-
   .footer__list-item {
-    border: 1px solid floralwhite;
+    /*border: 1px solid floralwhite;*/
     margin-bottom: 32px;
   }
 }

@@ -1,10 +1,10 @@
 .page {
-  margin: 0; /* 0 auto*/
-  /* this ensures that all content is centered on screens wider than 1600px */
+  margin: 0 auto; /* */
   font-family: 'Inter', sans-serif;/*,'Helvetica Neue', Arial, sans-serif;*/
   min-height: 100vh;
   /* figma request */
   background-color: #2a2c2f;
+  border: 1px solid white;
 
 }
 

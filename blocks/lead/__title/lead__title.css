@@ -2,6 +2,7 @@
   font-weight: 900;
   font-size: 96px;
   line-height: 104%;
+  max-width: 690px;
   margin: 0 132px 32px; /* 280 - 148 = 132 */
   text-align: center;
 }

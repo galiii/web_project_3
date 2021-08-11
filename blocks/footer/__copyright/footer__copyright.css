@@ -15,7 +15,6 @@
 
 /* The break points shold be between 320 to 768 */
 @media screen and (max-width: 540px) {
-
   .footer__copyright {
     margin-top: 16px;
     line-height: 1; /*14px*/

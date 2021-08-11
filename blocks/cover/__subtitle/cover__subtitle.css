@@ -1,7 +1,7 @@
 .cover__subtitle {
   margin: 32px auto 0;
   font-size: 18px;
-  line-height: 1.22; /*22px*/
+  line-height: 122%;
   max-width: 320px;
 }
 
@@ -9,22 +9,10 @@
 /************ Media **************/
 /* The break points should be between 320 to 768 */
 @media screen and (max-width: 540px) {
-
-  .cover {
-    margin-top: 64px;
-  }
-
-
-  .cover__link {
-    min-height: 200px;
-    /*background-size: cover;
-    background-repeat: no-repeat;*/
-}
-
-
 .cover__subtitle {
+    margin-top: 16px;
     font-size: 14px;
-    line-height: 1.14; /*16px*/
+    line-height: 114%;
     max-width: 288px;
   }
 
