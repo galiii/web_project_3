@@ -1,4 +1,6 @@
 .cover__link {
+  color: #fffdfd;
+  text-decoration: none;
   min-height: 740px;
   display: flex;
   justify-content: center;

@@ -7,9 +7,16 @@
 
 
 
-/************ Media **************/
 
-/* the break points shold be between 320 to 768 */
+/* there was bug with the text therefore i use it */
+@media screen and (max-width: 630px) {
+  .cover__title {
+    text-align: center;
+  }
+}
+
+
+/* the break points should be between 320 to 768 */
 @media screen and (max-width: 540px) {
 
   .cover__title {

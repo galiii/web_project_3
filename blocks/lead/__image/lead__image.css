@@ -1,16 +1,10 @@
 .lead__image {
   margin: 0 0 8px;
-  max-width: 100%;
+  /*max-width: 100%;*/
+  width: 100%;
   object-fit: contain;
 }
 
-
-/* The break points should be between 768 to 1024 */
-@media screen and (max-width: 860px) {
-  .lead__image{
-    width: 100%;
-  }
-}
 
 
 

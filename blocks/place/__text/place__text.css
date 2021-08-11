@@ -5,13 +5,13 @@
   line-height: 163%;
 }
 
-.places__text:last-of-type {
+.place__text:last-of-type {
   margin-bottom: 0;
 }
 
 /* The break points should be between 768 to 1024 */
 @media screen and (max-width: 860px) {
-  .places__text {
+  .place__text {
     font-size: 16px;
   }
 }

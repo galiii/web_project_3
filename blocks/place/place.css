@@ -1,33 +1,34 @@
-.places__list-item {
+.place {
   color: #fff;
   margin:  0 0 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 40px;
+  background-color: aqua;
 }
 
-.places__list-item:last-of-type {
+.place:last-of-type {
   margin-bottom: 0;
 }
 
 
-/* The break points shold be between 1024 to 1280 */
+/* The break points should be between 1024 to 1280 */
 @media screen and (max-width: 1148px) {
-  .places__list-item {
+  .place {
     column-gap: 32px;
   }
 }
 
-/* The break points shold be between 768 to 1024 */
+/* The break points should be between 768 to 1024 */
 @media screen and (max-width: 860px) {
-  .places__list-item {
+  .place {
     column-gap: 28px;
   }
 }
 
-/* The break points shold be between 320 to 768 */
+/* The break points should be between 320 to 768 */
 @media screen and (max-width: 540px) {
-  .places__list-item {
+  .place {
       margin: 48px 0;
       display: grid;
       grid-template-columns: 1fr;

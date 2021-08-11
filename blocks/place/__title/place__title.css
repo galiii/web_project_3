@@ -1,4 +1,4 @@
-.places__title {
+.place__title {
   margin: 0 0 48px;
   font-weight: 900;
   font-size: 72px;
@@ -9,7 +9,7 @@
 
 /* The break points should be between 768 to 1024 */
 @media screen and (max-width: 860px) {
-  .places__title {
+  .place__title {
     font-size: 42px;
     line-height: 110%;
   }
@@ -18,7 +18,7 @@
 
 /* The break points should be between 320 to 768 */
 @media screen and (max-width: 540px) {
-  .places__title {
+  .place__title {
     padding: 0 16px;
     margin: 0;
     font-size: 32px;
