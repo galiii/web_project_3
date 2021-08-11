@@ -9,8 +9,6 @@
   /*border: 1px solid fuchsia;*/
 }
 
-
-
 /* The break points should be between 1024 to 1280 */
 @media screen and (max-width: 1148px) {
   .lead{
@@ -19,22 +17,20 @@
     }
 }
 
-/*  The break points should be between 768 to 1024 */
+/* The break points should be between 768 to 1024 */
 @media screen and (max-width: 860px) {
   .lead {
-    /*width: calc(100% - 24px * 2);*/
-   max-width: 768px;
-   margin: 0 24px 88px;
+   /*max-width: 768px;*/
+   margin: 0 0 88px;
 
   }
 }
 
-
-/* The break points shold be between 320 to 768 */
+/* The break points should be between 320 to 768 */
 @media screen and (max-width: 540px) {
   .lead {
     /*max-width: 100%;*/
-    margin: 0 16px 64px;
+    margin-bottom: 64px;
 
   }
 }

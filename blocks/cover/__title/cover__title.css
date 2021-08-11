@@ -1,18 +1,8 @@
 .cover__title {
   margin: 0;
   font-size: 72px;
-  line-height: 1.06; /*76px;*/
+  line-height: 106%;
   font-weight: 900;
-}
-
-
-
-
-/* there was bug with the text therefore i use it */
-@media screen and (max-width: 630px) {
-  .cover__title {
-    text-align: center;
-  }
 }
 
 
@@ -21,6 +11,6 @@
 
   .cover__title {
     font-size: 32px;
-    line-height: 1.09; /*35px;*/
+    line-height: 109%;
   }
 }

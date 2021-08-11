@@ -1,5 +1,4 @@
 .lead__subtitle {
-  /*max-width: 70%;*/
   padding: 0;
   margin: 0 50px 64px;
   font-size: 30px;
@@ -16,13 +15,6 @@
   }
 }
 
-/* The break points should be between 768 to 1024 */
-@media screen and (max-width: 860px) {
-  .lead__subtitle {
-      /*margin-left: 74px;
-      margin-right: 74px;*/
-    }
-  }
 
 /* The break points should be between 320 to 768 */
 @media screen and (max-width: 540px) {

@@ -1,10 +1,33 @@
 .places {
   padding: 0;
-  margin: 0;
-  max-width: 100%;
+  margin: 0 148px 92px;
+  max-width: 984px;
   /*text-align: center;*/
 }
 
+
+/* The break points should be between 1024 to 1280 */
+@media screen and (max-width: 1148px) {
+  .places {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+
+/* The break points should be between 768 to 1024 */
+@media screen and (max-width: 860px) {
+  .places {
+    margin: 0 24px 89px;
+  }
+}
+
+/* The break points should be between 320 to 768 */
+@media screen and (max-width: 540px) {
+  .places {
+    margin: 0 0 64px;
+  }
+}
 
 
 

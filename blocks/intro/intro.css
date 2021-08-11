@@ -3,18 +3,17 @@
   max-width: 690px;
   display: flex;
   flex-direction: column;
-  margin: 0 0 92px 148px;
+  margin: 0 148px 92px;
   padding: 0;
   color: #fff;
 }
-
-
 
 
 /* The break points should be between 1024 to 1280 */
 @media screen and (max-width: 1148px) {
   .intro {
     margin-left: 48px;
+    margin-right: 48px;
   }
 }
 

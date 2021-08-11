@@ -1,17 +1,17 @@
 .cover {
-  margin-top: 92px;
+  margin-bottom: 92px;
 }
 
 /* The break points should be between 768 to 1024 */
 @media screen and (max-width: 860px) {
   .cover {
-    margin-top: 89px;
+    margin-bottom: 88px;
   }
 }
 
 /* The break points should be between 320 to 768 */
 @media screen and (max-width: 540px) {
   .cover {
-    margin-top: 64px;
+    margin-bottom: 64px;
   }
 }

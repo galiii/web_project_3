@@ -9,7 +9,6 @@
 
 /* The break points should be between 320 to 768 */
 @media screen and (max-width: 540px) {
-
   .intro__subtitle {
     line-height: 125%;
   }

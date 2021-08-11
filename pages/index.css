@@ -46,13 +46,7 @@
 /** Places **/
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__list/places__list.css);
-/*@import url(../blocks/places/__list-item/places__list-item.css);
-@import url(../blocks/places/__title/places__title.css);
-@import url(../blocks/places/__website/places__website.css);
-@import url(../blocks/places/__url-heading/places__url-heading.css);
-@import url(../blocks/places/__url-link/places__url-link.css);
-@import url(../blocks/places/__image/places__image.css);
-@import url(../blocks/places/__text/places__text.css);*/
+
 
 /** Place **/
 @import url(../blocks/place/place.css);

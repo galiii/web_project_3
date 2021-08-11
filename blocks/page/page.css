@@ -1,24 +1,21 @@
 .page {
   margin: 0 auto; /* */
-  font-family: 'Inter', sans-serif;/*,'Helvetica Neue', Arial, sans-serif;*/
+  font-family: 'Inter', sans-serif; /*,'Helvetica Neue', Arial, sans-serif;*/
   min-height: 100vh;
   /* figma request */
   background-color: #2a2c2f;
-  border: 1px solid white;
-
-}
-
-/* For desktop 1280px the maximum witdh according
-   to tag footer and photo gallery is 1184px */
-.page-container {
-  border: 1px solid red;
-  margin: 0 auto; /*top/bottom left/right*/
+  /*border: 1px solid white;*/
   margin-top: 34px;
   max-width: 1184px;
+
 }
 
 @media screen and (max-width: 540px) {
-  .page_container {
+  .page {
     margin-top: 20px;
   }
 }
+
+
+
+

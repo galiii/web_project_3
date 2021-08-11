@@ -8,8 +8,6 @@
   max-width: 690px;
 }
 
-
-
 /* The break points sholud be between 768 to 1024 */
 @media screen and (max-width: 860px) {
   .lead__caption {
