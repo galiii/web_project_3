@@ -3,18 +3,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*width: calc( 100% - 148px * 2);*/
   max-width: 984px;
-  margin: 0 auto 92px;
+  margin: 0 148px 92px;
   color: #fff;
-  border: 1px solid fuchsia;
+  /*border: 1px solid fuchsia;*/
 }
 
 
 /* The break points should be between 1024 to 1280 */
 @media screen and (max-width: 1148px) {
   .lead {
-    width: calc( 100% - 48px * 2);
+    /*width: calc( 100% - 48px * 2);*/
   }
 }
 
@@ -22,7 +21,8 @@
 /*  The break points should be between 768 to 1024 */
 @media screen and (max-width: 860px) {
   .lead {
-    width: calc(100% - 24px * 2);
+    /*width: calc(100% - 24px * 2);*/
+    max-width: 100%;
     margin-bottom: 88px;
   }
 }
@@ -31,8 +31,9 @@
 /* The break points shold be between 320 to 768 */
 @media screen and (max-width: 540px) {
   .lead {
-    width: calc(100% - 16px * 2);
-    margin-bottom: 64px;
+    max-width: 100%;
+    margin: 0 16px 64px;
+
   }
 }
 

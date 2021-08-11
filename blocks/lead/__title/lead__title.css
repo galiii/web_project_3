@@ -5,6 +5,7 @@
   max-width: 690px;
   margin: 0 132px 32px; /* 280 - 148 = 132 */
   text-align: center;
+  max-width: 690px;
 }
 
 
@@ -33,7 +34,7 @@
   margin-bottom: 16px;
   font-size: 40px;
   line-height: 110%;
-  /*max-width: 70%;*/
+  max-width: 288px;
   }
 }
 
