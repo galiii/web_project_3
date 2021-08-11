@@ -17,7 +17,7 @@
   }
 }
 
-/* The break points should be between 768 to 1024 */
+/* The break point should be between 768 to 1024 */
 @media screen and (max-width: 860px) {
     .intro {
       max-width: 100%;
