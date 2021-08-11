@@ -13,7 +13,6 @@
 
 /* The break points should be between 1024 to 1280 */
 @media screen and (max-width: 1148px) {
-
   .intro {
     margin-left: 48px;
   }
@@ -21,7 +20,6 @@
 
 /* The break points should be between 768 to 1024 */
 @media screen and (max-width: 860px) {
-
     .intro {
       max-width: 100%;
       margin: 0 24px 88px;
