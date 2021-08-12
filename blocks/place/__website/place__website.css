@@ -1,8 +1,9 @@
 .place__website {
-  /*margin: 0 0 48px;*/
+  border: 1px solid green;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 690px;
 }
 
 

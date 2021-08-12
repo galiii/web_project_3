@@ -3,7 +3,7 @@
   margin:  0 0 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 40px;
+  gap: 48px 40px;
   /*background-color: aqua;*/
 }
 
@@ -29,7 +29,7 @@
 /* The break points should be between 320 to 768 */
 @media screen and (max-width: 540px) {
   .place {
-      margin: 48px 0;
+      margin: 0 0 48px;
       display: grid;
       grid-template-columns: 1fr;
       row-gap: 30px;

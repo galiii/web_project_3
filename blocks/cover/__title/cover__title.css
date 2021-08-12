@@ -8,7 +8,6 @@
 
 /* the break points should be between 320 to 768 */
 @media screen and (max-width: 540px) {
-
   .cover__title {
     font-size: 32px;
     line-height: 109%;
