@@ -4,8 +4,8 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 106%;
-  max-width: 490px;
-  border: 1px solid red;
+  max-width: 460px;
+  /*border: 1px solid red;*/
 }
 
 
@@ -16,7 +16,6 @@
     font-size: 42px;
     line-height: 110%;
   }
-
 }
 
 /* The break points should be between 320 to 768 */
@@ -26,5 +25,6 @@
     /*margin: 0;*/
     font-size: 32px;
     line-height: 109%;
+    max-width: 288px;
   }
 }

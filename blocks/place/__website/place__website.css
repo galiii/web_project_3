@@ -1,9 +1,9 @@
 .place__website {
-  border: 1px solid green;
+  /*border: 1px solid green;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 690px;
+  max-width: 460px;;
 }
 
 
@@ -18,5 +18,6 @@
 @media screen and (max-width: 540px) {
   .place__website {
     padding: 0 16px;
+    max-width: 288px;
   }
 }

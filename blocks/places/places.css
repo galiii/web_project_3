@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0 auto 92px; /* when i use auto it's what makes the width 984 instead of 888 */
   max-width: 984px;
-  border: 1px solid aqua;
+  /*border: 1px solid aqua;*/
   /*text-align: center;*/
 }
 
