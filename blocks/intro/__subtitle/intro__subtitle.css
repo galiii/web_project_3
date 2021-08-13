@@ -3,6 +3,7 @@
   padding: 0;
   font-size: 24px;
   line-height: 142%;
+  max-width: 690px;
   /*border: 1px solid green;*/
 }
 
@@ -11,5 +12,6 @@
 @media screen and (max-width: 540px) {
   .intro__subtitle {
     line-height: 125%;
+    max-width: 288px;
   }
 }

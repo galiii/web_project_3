@@ -1,9 +1,9 @@
 .intro {
   /*border: 1px solid palegreen;*/
-  max-width: 690px;
+  max-width: 984px;
   display: flex;
   flex-direction: column;
-  margin: 0 148px 92px;
+  margin: 0 auto 92px; /* hope its acceptable to use auto in order to keep the width 984*/
   padding: 0;
   color: #fff;
 }

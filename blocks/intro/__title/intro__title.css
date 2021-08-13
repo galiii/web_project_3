@@ -4,7 +4,7 @@
   font-size: 54px;
   line-height: 107%; /*58px;*/
   font-weight: 900;
-  /*border: 1px solid teal;*/
+  max-width: 690px;
 }
 
 
@@ -13,5 +13,6 @@
   .intro__title {
     font-size: 32px;
     line-height: 109%; /*58px;*/
+    max-width: 288px;
   }
 }
